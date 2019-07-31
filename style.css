@@ -1,5 +1,5 @@
 body {
-  background-color: #c7f0db;
+  background-color: white;
   font-family: Arial;
   color: #273531;
   text-align: center;
@@ -52,7 +52,7 @@ h2 {
   color: #edaaaa;
 }
 
-.card-white {
+.card {
   text-align: center;
   width: 500px;
   margin: 15px auto;
