@@ -1,32 +1,36 @@
 body {
-  background-color: white;
+  background-color: #D3E4D5;
   font-family: Arial;
-  color: #273531;
+  color: black;
   text-align: center;
 }
 
 h1, h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: 100;
 }
 
-h2 {
+h2, p {
   font-size: 20px;
 }
 
 .profile-circle {
-  width: 150px;
+  height: 100px;
   border-radius: 50%;
 }
 
 .btn-white{
   text-decoration: none;
-  background: white;
+  background: #D3E4D5;
   padding: 10px;
-  color: #8bbabb;
-  border-radius: 5px;
+  color: black;
+  border-radius: 4px;
   margin-bottom: 10px;
+  margin-right: 4px;
+  margin-left: 4px;
 }
+
 .btn-white:hover {
   background: #edaaaa;
 }
@@ -56,25 +60,40 @@ h2 {
   text-align: center;
   width: 500px;
   margin: 15px auto;
-  background: #8bbabb;
+  background: white;
   padding: 25px;
   border-radius: 4px;
-  box-shadow: 0px 0px 83px 0px rgba(0,0,0,0.2);
+  box-shadow: 5px 5px 5px 5px #D6E6ED;
   padding-bottom: 20px;
 }
 
 @media (max-width: 960px) {
   .container {
     width: 700px;
+    background: #ECD1D1;
+    box-shadow: 5px 5px 5px 5px white;
+  }
+  .mobile-btn {
+    background: white;
   }
 }
 @media (max-width: 720px) {
   .container {
     width: 500px;
+    background: #F1D8C5;
+    box-shadow: 5px 5px 5px 5px white;
+  }
+   .mobile-btn {
+    background: white;
   }
 }
 @media (max-width: 540px) {
   .container {
     width: 300px;
+    background: white;
+    box-shadow: 5px 5px 5px 5px #D6E6ED;
+  }
+   .mobile-btn {
+    background: #D3E4D5;
   }
 }
